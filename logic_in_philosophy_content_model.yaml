@@ -1,0 +1,70 @@
+Page:
+  description: Generic static page for misc content.
+  fields:
+    title: string
+    slug: string
+    language: enum(en, he, ar)
+    body: markdown
+    heroImage: asset (optional)
+    seoDescription: string (optional)
+    parent: reference(Page) (optional)
+    translationOf: reference(Page) (optional)
+Theme:
+  description: Top-level research theme or topic.
+  fields:
+    title: string
+    slug: string
+    language: enum(en, he, ar)
+    summary: markdown
+    coverImage: asset
+    seoDescription: string (optional)
+    translationOf: reference(Theme) (optional)
+  relationships:
+    articles: many reference(Article)
+    events: many reference(Event)
+Article:
+  description: News item or blog-style article.
+  fields:
+    title: string
+    slug: string
+    author: string
+    publishDate: date
+    language: enum(en, he, ar)
+    heroImage: asset (optional)
+    body: markdown
+    tags: array(string)
+    seoDescription: string (optional)
+    translationOf: reference(Article) (optional)
+  relationships:
+    themes: many reference(Theme) (optional)
+Event:
+  description: Upcoming or past academic event.
+  fields:
+    title: string
+    slug: string
+    dateTime: datetime
+    endDateTime: datetime (optional)
+    location: string
+    language: enum(en, he, ar)
+    description: markdown
+    registrationURL: string (optional)
+    coverImage: asset (optional)
+    translationOf: reference(Event) (optional)
+  relationships:
+    themes: many reference(Theme) (optional)
+Broadcast:
+  description: Scheduled Zoom sessions or recorded replays.
+  fields:
+    title: string
+    slug: string
+    dateTime: datetime
+    presenter: string
+    zoomMeetingId: string
+    zoomPasscode: string (optional)
+    replayURL: string (optional)
+    language: enum(en, he, ar)
+    description: markdown (optional)
+    seoDescription: string (optional)
+    translationOf: reference(Broadcast) (optional)
+  relationships:
+    themes: many reference(Theme) (optional)
