@@ -1,0 +1,20 @@
+{
+  "logo": "לוגיקה בפילוסופיה",
+  "nav": {
+    "home": "בית",
+    "articles": "מאמרים",
+    "events": "אירועים",
+    "broadcasts": "שידורים",
+    "contact": "צור קשר"
+  },
+  "home": {
+    "title": "לוגיקה בפילוסופיה",
+    "articles": "מאמרים",
+    "events": "אירועים",
+    "broadcasts": "שידורים"
+  },
+  "footer": {
+    "copy": "לוגיקה בפילוסופיה \u00a9 2025 - contact@logicinphilosophy.com",
+    "social": ["יוטיוב", "גיטהאב"]
+  }
+}

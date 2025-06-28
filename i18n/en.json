@@ -1,0 +1,20 @@
+{
+  "logo": "Logic in Philosophy",
+  "nav": {
+    "home": "Home",
+    "articles": "Articles",
+    "events": "Events",
+    "broadcasts": "Broadcasts",
+    "contact": "Contact"
+  },
+  "home": {
+    "title": "Logic in Philosophy",
+    "articles": "Articles",
+    "events": "Events",
+    "broadcasts": "Broadcasts"
+  },
+  "footer": {
+    "copy": "Logic in Philosophy \u00a9 2025 - contact@logicinphilosophy.com",
+    "social": ["YouTube", "GitHub"]
+  }
+}
