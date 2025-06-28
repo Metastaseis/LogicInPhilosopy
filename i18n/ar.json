@@ -1,0 +1,20 @@
+{
+  "logo": "المنطق في الفلسفة",
+  "nav": {
+    "home": "الرئيسية",
+    "articles": "مقالات",
+    "events": "فعاليات",
+    "broadcasts": "بثوث",
+    "contact": "اتصل بنا"
+  },
+  "home": {
+    "title": "المنطق في الفلسفة",
+    "articles": "مقالات",
+    "events": "فعاليات",
+    "broadcasts": "بثوث"
+  },
+  "footer": {
+    "copy": "المنطق في الفلسفة \u00a9 2025 - contact@logicinphilosophy.com",
+    "social": ["يوتيوب", "جيت هب"]
+  }
+}
