@@ -14,7 +14,11 @@
     "broadcasts": "שידורים"
   },
   "footer": {
-    "copy": "לוגיקה בפילוסופיה \u00a9 2025 - contact@logicinphilosophy.com",
-    "social": ["יוטיוב", "גיטהאב"]
-  }
+    "copy": "לוגיקה בפילוסופיה © 2025 - contact@logicinphilosophy.com",
+    "social": [
+      "יוטיוב",
+      "גיטהאב"
+    ]
+  },
+  "siteName": "לוגיקה בפילוסופיה"
 }

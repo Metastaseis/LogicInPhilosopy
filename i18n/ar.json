@@ -14,7 +14,11 @@
     "broadcasts": "بثوث"
   },
   "footer": {
-    "copy": "المنطق في الفلسفة \u00a9 2025 - contact@logicinphilosophy.com",
-    "social": ["يوتيوب", "جيت هب"]
-  }
+    "copy": "المنطق في الفلسفة © 2025 - contact@logicinphilosophy.com",
+    "social": [
+      "يوتيوب",
+      "جيت هب"
+    ]
+  },
+  "siteName": "المنطق في الفلسفة"
 }

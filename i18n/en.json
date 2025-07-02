@@ -14,7 +14,11 @@
     "broadcasts": "Broadcasts"
   },
   "footer": {
-    "copy": "Logic in Philosophy \u00a9 2025 - contact@logicinphilosophy.com",
-    "social": ["YouTube", "GitHub"]
-  }
+    "copy": "Logic in Philosophy © 2025 - contact@logicinphilosophy.com",
+    "social": [
+      "YouTube",
+      "GitHub"
+    ]
+  },
+  "siteName": "Logic in Philosophy"
 }
